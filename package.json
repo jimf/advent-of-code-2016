@@ -1,0 +1,17 @@
+{
+  "name": "advent-of-code-2016",
+  "version": "1.0.0",
+  "description": "Solutions for Advent of Code 2016",
+  "private": true,
+  "scripts": {
+    "lint": "jshint .",
+    "pretest": "npm run lint",
+    "test": "tape src/**/test.js"
+  },
+  "author": "Jim Fitzpatrick <fitzpatrick.jim@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jshint": "^2.9.4",
+    "tape": "^4.6.3"
+  }
+}
